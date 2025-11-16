@@ -2,7 +2,7 @@ export default {
   async fetch(request) {
     try {
       const webhookURL =
-        "https://api.junkie-development.de/api/v1/webhooks/execute/f7da89d1-2459-4933-a4ed-94b561b30e8b";
+        "your webhook";
 
       const res = await fetch(webhookURL, {
         method: "POST",
